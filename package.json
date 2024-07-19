@@ -1,0 +1,21 @@
+{
+  "name": "vsal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "code": "npx tailwindcss -i ./tailwind/tailwind.css -o ./css/main.css --watch",
+    "ostadpage": "npx tailwindcss -i ./tailwind/ostad_tailwind.css -o ./css/ostad.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.12.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@preline/overlay": "^2.3.0",
+    "flowbite": "^2.4.1"
+  }
+}

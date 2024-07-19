@@ -1,0 +1,42 @@
+.Menu .esm__dars .hame__dooroos:hover  .nested__menu{
+    display: flex;
+}
+.nested__menu:hover{
+    display: flex;
+}
+.ebtedaii:hover .ebtedaii__menu{
+    display: flex;
+}
+.motevasete__aval:hover .motevasete__aval__menu{
+    display: flex;
+}
+.motevasete__dovom:hover .motevasete__dovom__menu{
+    display: flex;
+}
+.konkoor:hover .konkoor__menu{
+    display: flex;
+}
+.zaban:hover .zaban__menu{
+    display: flex;
+}
+.university:hover .university__menu{
+    display: flex;
+}
+.software:hover .software__menu{
+    display: flex;
+}
+.program:hover .program__menu{
+    display: flex;
+}
+.music:hover .music__menu{
+    display: flex;
+}
+.oversea__exams:hover .oversea__exams__menu{
+    display: flex;
+}
+.art:hover .art__menu{
+    display: flex;
+}
+.sports:hover .sports__menu{
+    display: flex;
+}

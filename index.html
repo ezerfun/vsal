@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/extra.css">
+    <link rel="stylesheet" href="./icons/FontAwesome.Pro.6.5.0/fontawesome-pro-6.5.0-web/css/all.css">
+    <link rel="stylesheet" href="./css/accordion.css">
+    <title>Vsal ویسال</title>
+</head>
+<body class="bg-white">
+    <!--Make Vsal-->
+    <!--Make Header-->
+    <div class="header w-[100%] h-[100px] flex bg-white flex-row-reverse border-b-2 border-[#686D76]">
+        <div class="logo w-[50%] h-[100%]  flex flex-row-reverse justify-start items-center">
+            <a href="./menu.html" ><img src="./images/logo-V.jpg" alt="" class="w-[100%] h-[80px]"></a>
+            <h1 class="text-black font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[10px]">  Vsal - ویسال</h1>
+        </div>
+        <div class="buttons w-[50%] h-[100%] flex justify-center items-center gap-4">
+                <a href="./to__be__done.html" class="bg-gray-300 border-[2px] border-gray-300 xl:w-[100px] lg:w-[95px] md:w-[90] sm:w-[80px] w-[75px] h-[30px] rounded-[10px] flex justify-evenly items-center text-[black] xl:text-[12px] lg:text-[11px] md:text-[10px] sm:text-[9px] text-[8px] font-serif hover:bg-[#686D76] hover:border-gray-700 hover:text-[white] hover:rounded-[15px] transition duration-300 hover:shadow-xl">ورود / عضویت <i class="fa-light fa-user"></i></a>
+                <a href="./to__be__done.html" class="bg-transparent xl:w-[100px] lg:w-[95px] md:w-[90] sm:w-[80px] w-[75px] h-[30px] border-[2px]
+                border-gray-700 rounded-[10px] flex justify-evenly items-center text-[gray] xl:text-[12px] lg:text-[11px] md:text-[10px] sm:text-[9px] text-[8px] font-serif hover:bg-gray-300 hover:text-[black] hover:border-gray-700 hover:rounded-[15px] transition duration-300 hover:shadow-xl">عضویت اساتید <i class="fa-light fa-building-columns"></i></a>
+        </div>
+    </div>
+    <!--end Header-->
+
+    <!--Make Menu-->
+    <div class="Menu w-[100%] h-[60px] bg-[#686D76] flex justify-evenly ">
+        <div class="search__bar w-[50%] h-[100%] xl:flex lg:flex md:hidden sm:hidden hidden   justify-center items-center ">
+            <label class="input input-bordered flex items-center placeholder-black bg-gray-400 text-[black] gap-2 ">
+                <input type="text" class="grow placeholder-black font-serif" placeholder="جست و جو" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="black"
+                  class="h-4 w-4 opacity-70">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </label>
+        </div>
+        <div class="esm__dars xl:w-[50%] lg:w-[50%] md:w-[100%] sm:w-[100%] w-[100%] h-[100%]   justify-evenly items-center text-[10px] font-serif xl:flex lg:flex md:hidden sm:hidden hidden">
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px] ">موسیقی</a>
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px]">نرم افزارها</a>
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px]">برنامه نویسی</a>
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px]">زیست</a>
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px]">شیمی</a>
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px]">فیزیک</a>
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px]">ریاضی</a>
+            <a href="#" class="text-white hover:scale-110 duration-300 font-sans text-[15px]">انگلیسی</a>
+            <div class="hame__dooroos relative h-[100%] font-sans text-[15px] flex justify-center items-center">
+                <button class="text-white hover:scale-110 duration-300">همه دروس</button>
+                <div class="nested__menu bg-[#B4B4B8] w-[800px] h-[300px] absolute hidden top-[58px] right-[0px] ">
+                    <div class="category__show border flex w-[80%] h-[100%]">
+                        
+                    </div>
+                    <div class="dars__category flex flex-col w-[20%] h-[100%]">
+                        <div class="ebtedaii relative text-[white] h-[8.34%] w-[100%] flex   items-center justify-center hover:bg-[#686D76] hover:border  transition duration-200 ">
+                            <a href="#" class="font-sans   transition duration-300">ابتدایی</a>
+                            <div class="ebtedaii__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] flex flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="motevasete__aval text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">متوسطه اول</a>
+                            <div class="motevasete__aval__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="motevasete__dovom text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">متوسطه دوم</a>
+                            <div class="motevasete__dovom__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="konkoor text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">کنکور سراسری</a>
+                            <div class="konkoor__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="zaban text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">زبان های خارجه</a>
+                            <div class="zaban__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="university text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">دروس دانشگاهی</a>
+                            <div class="university__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="software text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">نرم افزار ها</a>
+                            <div class="software__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="program text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">برنامه نویسی</a>
+                            <div class="program__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="music text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">موسیقی</a>
+                            <div class="music__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="oversea__exams text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">آزمون های خارجی</a>
+                            <div class="oversea__exams__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="art text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">هنر و مهارت ها</a>
+                            <div class="art__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sports text-[white] h-[8.34%] w-[100%] flex hover:border items-center justify-center hover:bg-[#686D76] hover:text-[12px] transition duration-200 ">
+                            <a href="#" class="font-sans hover:scale-105 transition duration-300">ورزش</a>
+                            <div class="sports__menu w-[650px] h-[300px] absolute bg-[#C7C8CC] top-[0px] right-[160px] hidden flex-wrap flex-row-reverse justify-between items-center">
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                                <div class="content_1 w-[18%] h-[45%] border flex flex-col justify-between items-center rounded-[7px]">
+                                    <h2 class="text-[12px] text-[black] font-sans">مقطع تحصیلی</h2>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[8px] hover:text-[#478CCF] transition duration-200"> درس مربوطه</a>
+                                    <a href="#" class="text-[10px] text-[#478CCF] hover:text-[black] transition duration-200">دروس بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="mobile__menu w-[100%] h-[100%]  xl:hidden lg:hidden md:flex sm:flex flex">
+            <div class="left w-[50%] h-[100%]"></div>
+            <div class="right w-[50%] h-[100%] flex items-center ">
+                <div class="drawer drawer-end ">
+                    <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                    <div class="drawer-content">
+                      <!-- Page content here -->
+                      <label for="my-drawer-4" class="drawer-button btn btn-primary w-[20px] ml-[350px] bg-gray-400 border-white hover:bg-white hover:border-white">
+                        <i class="fa-solid fa-bars"></i>
+                      </label>
+                    </div>
+                    <div class="drawer-side">
+                      <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+                      <ul class="menu bg-gray-600 text-base-content min-h-full w-80 p-4 flex ">
+                        <!-- Sidebar content here -->
+                        <div class="mobile__menu__top w-80 h-[200px] flex justify-between flex-col items-center">
+                            <label for="my-drawer-4" class="drawer-button btn btn-primary w-[20px]  bg-transparent text-white hover:bg-[#4B5563] hover:border-white ml-[210px] border-[#4B5563]">
+                                <i class="fa-solid fa-x "></i>
+                            </label>
+                            <a href="#" class="font-serif text-[17px] text-white hover:scale-105 transition duration-300">ویسال<i class="fa-regular fa-house ml-1"></i></a>
+                            <a href="#" class="font-serif text-[17px] text-white hover:scale-105 transition duration-300">مجله ویسال<i class="fa-duotone fa-solid fa-book-open-cover ml-1"></i></a>
+                            <a href="#" class="font-serif text-[17px] text-white hover:scale-105 transition duration-300">سوالات متداول<i class="fa-solid fa-comments ml-1"></i></a>
+                            <a href="#" class="font-serif text-[17px] text-white hover:scale-105 transition duration-300">عضویت اساتید<i class="fa-solid fa-user-vneck ml-1"></i></a>
+                        </div>
+                        <br>
+                        <div class="mobile__menu__middle w-80 h-[200px] flex flex-row-reverse gap-[20px] flex-wrap items-center justify-center">
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">انگلیسی</a>
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">ریاضی</a>
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">فیزیک</a>
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">شیمی</a>
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">زیست</a>
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">برنامه نویسی</a>
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">نرم افزارها</a>
+                            <a href="#" class="font-serif text-[white] border-gray-400 border-[1px] w-[70px] h-[30px] rounded-[20px] flex justify-center transition duration-200 hover:bg-slate-400 hover:text-black">موسیقی</a>
+                        </div>
+                        <div class="mobile__menu__bottom w-80 h-[100px] flex flex-row-reverse items-center justify-evenly">
+                            <p class="text-white font-serif">پشتیبانی<i class="fa-regular fa-headphones ml-1"></i></p>
+                            <p class=" text-white">021-12345678</p>
+                        </div>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--end Menu-->
+
+    <br>
+
+    <!--Make location-->
+    <div class="color1 w-[100%] h-[25px] bg-gradient-to-r from-gray-400 from-30% via-gray-200 via-50% to-white to-80% rounded-tl-[50px] rounded-tr-[50px] xl:flex lg:flex md:hidden sm:hidden hidden"></div>
+
+    <div class="loc w-[100%] xl:h-[400px] lg:h-[400px] md:h-[800px] flex flex-wrap xl:bg-gradient-to-r lg:bg-gradient-to-r md:bg-gradient-to-b sm:bg-gradient-to-b
+    bg-gradient-to-b from-gray-400 from-30% via-gray-200 via-50% to-white to-80%">
+        <div class="left xl:w-[50%] lg:w-[50%] md:w-[100%] sm:w-[100%]
+        w-[100%] xl:h-[100%] lg:h-[100%] md:h-[50%] bg-transparent flex justify-center items-center">
+            <img src="./images/loc__pic.jpg" alt="" class="rounded-[20px] h-[70%] border-red-500 ">
+        </div>
+        <div class="right xl:h-[100%] lg:h-[100%] md:h-[50%] xl:w-[50%] lg:w-[50%] md:w-[100%] sm:w-[100%]
+        w-[100%] xl:text-[30px] lg:text-[27px] md:text-[24px] sm:text-[21px] text-[18px] flex justify-center items-center  text-black font-serif xl:text-right lg:text-right md:text-center sm:text-center text-center">
+            <p class="w-[420px]">معلم خصوصی خود را به صورت حضوری یا آنلاین در
+             سامانه تدریس خصوصی ویسال بیابید</p>
+        </div>
+    </div>
+
+    <div class="color2 w-[100%] h-[25px] bg-gradient-to-r from-gray-400 from-30% via-gray-200 via-50% to-white to-80% rounded-bl-[50px] rounded-br-[50px] xl:flex lg:flex md:hidden sm:hidden hidden"></div>
+
+    <br>
+    <!--End Location-->
+    
+    <div class="buttons w-[100%] h-[300px] flex justify-center items-center">
+        <div class="content w-[80%] h-[80%] bg-[#686D76] rounded-[15px] flex xl:flex-row  lg:flex-row md:flex-col sm:flex-col flex-col justify-evenly items-center">
+            
+            <button class="manzel xl:w-[350px] lg:w-[350px] md:w-[250px] sm:w-[250px] w-[200px] h-[100px] bg-[#EEEDEB] rounded-[20px] flex justify-center items-center hover:scale-105 transition duration-200 font-serif text-[20px]">
+                <p>تدریس حضوری در منزل</p><i class="fa-solid fa-location-pin ml-[5px] mt-[0px]"></i>
+            </button>
+            <button class="online xl:w-[350px] lg:w-[350px] md:w-[250px] sm:w-[250px] w-[200px] h-[100px] bg-[#EEEDEB] rounded-[20px] flex justify-center items-center hover:scale-105 transition duration-200 font-serif text-[20px]">
+                <p>تدریس خصوصی آنلاین</p><i class="fa-light fa-laptop-mobile ml-[5px] mt-[1px]"></i>
+            </button>
+        </div>
+    </div>
+
+    <!--Make categories-->
+    <div class="categories w-[100%] xl:h-[1100px] lg:h-[1100px] md:h-[1800px] sm:h-[1800px] h-[1800px] flex justify-center">
+        <div class="category__place w-[80%] h-[100%] bg-gray-500">
+            <div class="row__1 w-[100%] h-[25%]  flex items-center justify-evenly xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:gap-0 lg:gap-0 md:gap-1 sm:gap-1 gap-1">
+                <a href="#">
+                    <div class="row__1__card1 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center ">
+                            <img src="./images/ebtedaii_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">ابتدایی</h2>
+                            <p class="font-serif text-[10px] text-gray-400">. . . ریاضی , ادبیات  و  زبان فارسی و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#6D70C6]">
+                            <p>523</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row__1__card2 h-[100px] flex flex-row-reverse rounded-[25px] xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/zaban_khareji_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">زبان های خارجی</h2>
+                            <p class="font-serif text-[10px] text-gray-400">. . . مکالمه , آیلتس , تافل , گرامر و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#FE4572]">
+                            <p>405</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <br>
+            <div class="row__2 w-[100%] h-[25%]  flex items-center justify-evenly xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:gap-0 lg:gap-0 md:gap-1 sm:gap-1 gap-1">
+                <a href="#">
+                    <div class="row__1__card1 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/Motevasete_1_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">متوسطه اول</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[8px]   sm:text-[7px] text-[6px] text-gray-400">. . . ریاضی , زبان انگلیسی , عربی  و  زبان فارسی و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#2B98BA]">
+                            <p>1244</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row__1__card2 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/Motevasete_2_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">متوسطه دوم</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[8px]   sm:text-[7px] text-[6px] text-gray-400">. . . ریاضی , شیمی , فیزیک , زیست شناسی , زبان و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#F8763F]">
+                            <p>1304</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <br>
+            <div class="row__3 w-[100%] h-[25%]  flex items-center justify-evenly xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:gap-0 lg:gap-0 md:gap-1 sm:gap-1 gap-1">
+                <a href="#">
+                    <div class="row__1__card1 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/daneshgah_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">دروس دانشگاهی</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[8px]   sm:text-[7px] text-[6px] text-gray-400 text-right">. . . آمار و احتمالات , ریاضیات , مکانیک سیالات و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#FE4572]">
+                            <p>592</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row__1__card2 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/Konkoor_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]"> 
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">کنکور سراسری</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[9px]   sm:text-[8px] text-[7px] text-gray-400 text-right">. . . شیمی , فیزیک , ریاضی , زیست شناسی , زبان کنکور و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#6D70C6]">
+                            <p>984</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <br>
+            <div class="row__4 w-[100%] h-[25%] flex items-center justify-evenly xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:gap-0 lg:gap-0 md:gap-1 sm:gap-1 gap-1">
+                <a href="#">
+                    <div class="row__1__card1 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/Programming_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">برنامه نویسی</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[9px]   sm:text-[8px] text-[7px] text-gray-400">. . . برنامه نویسی وب , موبایل , دیتابیس , بازی و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#6D70C6]">
+                            <p>109</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row__1__card2 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/Software_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">نرم افزار</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[9px]   sm:text-[8px] text-[7px] text-gray-400">. . . متلب , آتوکد , آی سی دی ال , اکسل فتوشاپ و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#F8763F]">
+                            <p>208</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>      
+    </div>
+    <div class="categories__hidden w-[100%] xl:h-[400px] lg:h-[400px] md:h-[800px] sm:h-[800px] h-[800px] hidden justify-center">
+        <div class="category__hidden__place w-[80%] h-[100%] bg-gray-500">
+            <div class="row__1 w-[100%] h-[50%] flex  items-center justify-evenly xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:gap-0 lg:gap-0 md:gap-1 sm:gap-1 gap-1">
+                <a href="#">
+                    <div class="row__1__card1 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/foreign-exams_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">آزمون های خارجی</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[9px]   sm:text-[8px] text-[7px] text-gray-400">. . . IMAT , YOT , SAT , Tomer آزمون</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#2A63C7]">
+                            <p>523</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row__1__card2 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/music_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">موسیقی</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[8px] sm:text-[7px] text-[6px] text-gray-400 text-right">. . . گیتار کلاسیک , فلامانکو , پیانو , سه تار , تار , ویولن و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#2B98BA]">
+                            <p>21</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="row__2 w-[100%] h-[50%] flex items-center justify-evenly xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:gap-0 lg:gap-0 md:gap-1 sm:gap-1 gap-1">
+                <a href="#">
+                    <div class="row__1__card1 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/sport_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">ورزش</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[9px]   sm:text-[8px] text-[7px] text-gray-400">. . . شنا , بدنسازی , یوگا , شطرنج , تنیس و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#F8763F]">
+                            <p>15</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row__1__card2 flex flex-row-reverse xl:w-[400px] lg:w-[400px] md:w-[300px] sm:w-[300px] w-[250px] h-[100px] border rounded-[25px]">
+                        <div class="icon w-[25%] h-[100%] bg-white rounded-br-[25px] rounded-tr-[25px] flex justify-center items-center">
+                            <img src="./images/ebtedaii_svg.svg" alt="" class="xl:w-[70%] lg:w-[70%] md:w-[65%] sm:w-[60%] w-[50%]">
+                        </div>
+                        <div class="text w-[50%] h-[100%] bg-white flex flex-col justify-evenly xl:items-center lg:items-center md:items-end  sm:items-end items-end font-serif text-[15px]">
+                            <h2 class="font-serifxl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px]">هنر و مهارت ها</h2>
+                            <p class="font-serif xl:text-[10px] lg:text-[10px] md:text-[9px]   sm:text-[8px] text-[7px] text-gray-400">. . . عکاسی , نقاشی , قرآن , خوشنویسی و</p>
+                        </div>
+                        <div class="profiles w-[25%] h-[100%] bg-white rounded-tl-[25px] rounded-bl-[25px] flex flex-col justify-evenly items-center text-[#6D70C6]">
+                            <p>52</p>
+                            <p>مدرس</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>      
+    </div>
+    
+    <br>
+    <div class="categories__button w-[100%] h-[100px]  flex justify-center items-center">
+        <button class="w-[20%] h-[60px] text-gray-400 border-gray-400 border-[2px] rounded-[25px] flex justify-center items-center font-serif text-[20px] transition duration-300 hover:text-[white] hover:bg-gray-400"> کلاس های بیشتر</button>
+    </div>
+    <!--End categories-->
+
+
+    <br>
+
+    <!--Make Stats-->
+    <div class="stats w-[100%] h-[400px]  flex justify-center items-center" style="background-image: url('./images/math__background1\ \(1\).png');">
+        <div class="stats__numbers w-[80%] h-[100%]  flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col justify-between items-center">
+            <div class="stats__1 xl:w-[30%] lg:w-[27%] md:w-[50%] sm:w-[50%] w-[50%] xl:h-[50%] lg:h-[45%] md:h-[30%] sm:h-[30%] h-[30%] bg-[#F3F3F5] flex rounded-[250px] justify-evenly items-center flex-col">
+                <h2 class="xl:text-[40px] lg:text-[34px] md:text-[29px] sm:text-[24px] text-[13px] font-serif text-[#7C7E81]">+ 2 , 900</h2>
+                <p class="xl:text-[25px] lg:text-[20px] md:text-[16px] sm:text-[12px] text-[9px] font-serif text-[#7C7E81]">معلم خصوصی باتجربه</p>
+            </div>
+            <div class="stats__2 xl:w-[30%] lg:w-[27%] md:w-[50%] sm:w-[50%] w-[50%] xl:h-[50%] lg:h-[45%] md:h-[30%] sm:h-[30%] h-[30%] bg-[#F3F3F5] flex rounded-[250px] justify-evenly items-center flex-col">
+                <h2 class="xl:text-[40px] lg:text-[34px] md:text-[29px] sm:text-[24px] text-[13px] font-serif text-[#7C7E81]">+ 1 , 200 , 000</h2>
+                <p class="xl:text-[25px] lg:text-[20px] md:text-[16px] sm:text-[12px] text-[9px] font-serif text-[#7C7E81]">ساعت کلاس تدریس خصوصی</p>
+            </div>
+            <div class="stats__3 xl:w-[30%] lg:w-[27%] md:w-[50%] sm:w-[50%] w-[50%] xl:h-[50%] lg:h-[45%] md:h-[30%] sm:h-[30%] h-[30%] bg-[#F3F3F5] flex rounded-[250px] justify-evenly items-center flex-col">
+                <h2 class="xl:text-[40px] lg:text-[34px] md:text-[29px] sm:text-[24px] text-[13px] font-serif text-[#7C7E81]">+ 120 , 000</h2>
+                <p class="xl:text-[25px] lg:text-[20px] md:text-[16px] sm:text-[12px] text-[9px] w-[70%] text-right font-serif text-[#7C7E81]">شاگرد خصوصی به صورت آنلاین و حضوری</p>
+            </div>
+        </div>
+    </div>
+    <!--end Stats-->
+
+    <br>
+
+
+    <!--Make why-->
+    <div class="why w-[100%] h-[500px] flex flex-wrap">
+        <div class="title w-[100%] h-[10%]  flex justify-center">
+            <div class="place w-[200px] h-[100%] bg-cover flex border justify-center" style="background-image: url('./images/brush__stroke.png');">
+             <p class="text-[white] font-serif xl:text-[30px] lg:text-[25px] md:text-[22px] sm:text-[18px] text-[14px]"> چرا ویسال ؟</p>   
+            </div>
+        </div>
+        <div class="reasons__row1 w-[100%] h-[45%] flex justify-evenly items-center xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+            <div class="card__1 xl:w-[500px] lg:w-[500px] md:w-[50%] sm:w-[50%] w-[50%] xl:h-[200px] lg:h-[200px] md:h-[100px] sm:h-[100px] h-[100px] rounded-[20px] flex">
+                <div class="relative rounded-2xl p-8 w-[100%]">
+                    <div class="absolute -inset-px bg-gradient-to-r from-gray-200 to-gray-500 rounded-2xl" aria-hidden="true"></div>
+                    <div class="absolute inset-0 bg-white flex flex-col text-right rounded-2xl justify-evenly items-end" aria-hidden="true">
+                        <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[11px] mr-[20px]">مقایسه و شناخت اساتید قبل از ثبت درخواست<i class="fa-solid fa-badge-check ml-2"></i></h2>
+                        <p class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[10px] text-[8px] w-[70%] text-[#7D7E83] mr-[20px]">تمام موارد لازم برای شناخت استاد در پروفایل اساتید قرار دارد که شاگردان به راحتی بتوانند به بررسی استاد بپردازند و درخواست خود را ثبت کنند</p>
+                    </div>
+                    <div class="z-10 text-black"></div>
+                </div>
+            </div>
+            <div class="card__2 xl:w-[500px] lg:w-[500px] md:w-[50%] sm:w-[50%] w-[50%] xl:h-[200px] lg:h-[200px] md:h-[100px] sm:h-[100px] h-[100px] rounded-[20px] flex ">
+                <div class="relative rounded-2xl p-8 w-[100%]">
+                    <div class="absolute -inset-px bg-gradient-to-r from-gray-200 to-gray-500 rounded-2xl" aria-hidden="true"></div>
+                    <div class="absolute inset-0 bg-white flex flex-col text-right rounded-2xl justify-evenly items-end" aria-hidden="true">
+                        <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[11px] mr-[20px]">نظارت دقیق و ارزیابی عملکرد معلمان<i class="fa-solid fa-eye-evil ml-2"></i></h2>
+                        <p class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[10px] text-[8px] w-[70%] text-[#7D7E83] mr-[20px]">استادبانک پیش از فعال‌سازی اساتید رزومه آن‌ها را به دقت بررسی می‌کند. بعد از فعال‌سازی هم نظارت دقیق و دائمی بر عملکرد اساتید وجود دارد</p>
+                    </div>
+                    <div class="z-10 text-black"></div>
+                </div>
+            </div>
+        </div>
+        <div class="reasons__row2 w-[100%] h-[45%]  flex justify-evenly items-center xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+            <div class="card__3 xl:w-[500px] lg:w-[500px] md:w-[50%] sm:w-[50%] w-[50%] xl:h-[200px] lg:h-[200px] md:h-[100px] sm:h-[100px] h-[100px] rounded-[20px] flex">
+                <div class="relative rounded-2xl p-8 w-[100%]">
+                    <div class="absolute -inset-px bg-gradient-to-r from-gray-200 to-gray-500 rounded-2xl" aria-hidden="true"></div>
+                    <div class="absolute inset-0 bg-white flex flex-col text-right rounded-2xl justify-evenly items-end" aria-hidden="true">
+                        <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[11px] mr-[20px]">امکان برگزاری کلاس به صورت حضوری یا آنلاین<i class="fa-solid fa-house-laptop ml-2"></i></h2>
+                        <p class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[10px] text-[8px] w-[70%] text-[#7D7E83] mr-[20px]">در زمان ثبت درخواست امکان انتخاب نحوه برگزاری کلاس به صورت حضوری یا آنلاین وجود دارد</p>
+                    </div>
+                    <div class="z-10 text-black"></div>
+                </div>
+            </div>
+            <div class="card__4 xl:w-[500px] lg:w-[500px] md:w-[50%] sm:w-[50%] w-[50%] xl:h-[200px] lg:h-[200px] md:h-[100px] sm:h-[100px] h-[100px] rounded-[20px] flex">
+                <div class="relative rounded-2xl p-8 w-[100%]">
+                    <div class="absolute -inset-px bg-gradient-to-r from-gray-200 to-gray-500 rounded-2xl" aria-hidden="true"></div>
+                    <div class="absolute inset-0 bg-white flex flex-col text-right rounded-2xl justify-evenly items-end" aria-hidden="true">
+                        <h2 class="font-serif xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[11px] mr-[20px]">شفافیت قیمت و تضمین پایین‌ترین قیمت‌ها<i class="fa-regular fa-circle-dollar ml-2"></i></h2>
+                        <p class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[10px] text-[8px] w-[70%] text-[#7D7E83] mr-[20px]">پایین‌ترین قیمت کلاس‌های اساتید در استادبانک است. تمام قیمت‌ها پیش از ثبت درخواست به صورت شفاف برای شاگردان قابل مشاهده است</p>
+                    </div>
+                    <div class="z-10 text-black"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end why-->
+    <br>
+
+
+    <!--Make akardion-->
+    <div class="akardion w-[100%] xl:h-[500px] lg:h-[500px] md:h-[800px] sm:h-[800px] h-[800px] flex justify-center border-red-500 border-[1px]">
+        <div class="container w-[80%] h-[100%] flex flex-col-reverse justify-between">
+            <div class="collapse collapse-arrow bg-[#7D7F83]">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-serif flex flex-row-reverse text-white">استادبانک چطور اساتید خود را پیش از فعالسازی ارزیابی می کند؟</div>
+                <div class="collapse-content flex flex-row-reverse font-serif text-right text-white">
+                  <p>استادبانک مدارک همه معلم‌های ستاره دار را بررسی کرده و در مورد توانایی‌های تدریس، با آن‌ها مصاحبه کرده است.مدارکی که استادبانک بررسی کرده است شامل مدارک شناسایی، مدارک دانشگاهی، معرفی نامه از مدارس یا آموزشگاه‌ها، حکم گزینش آموزش و پرورش و موارد مشابه است. درواقع سعی شده است برای هر موردی که در رزومه معلم‌ها آمده است، مدرک مورد نظر نیز از ایشان دریافت شود. مواردی که در پروفایل استاد دارای تیک آبی است، به معنای تایید مدرک موردنظر توسط استادبانک می باشد</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-[#7D7F83]">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-serif flex flex-row-reverse text-white">چطور می توانم استاد موردنظر خود را پیدا کنم؟</div>
+                <div class="collapse-content flex flex-row-reverse font-serif text-white text-right">
+                  <p>تمام موارد لازم برای شناخت استاد در پروفایل اساتید قرار دارد که شاگردان به راحتی بتوانند به بررسی استاد بپردازند و درخواست خود را ثبت کنند. این موارد شامل رزومه تحصیلی و تدریس استاد، نظرات شاگردان پیشین استاد (که کاملا به تایید استادبانک رسیده است)، ویدئوی معرفی استاد و سطح تدریس استاد می شود</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-[#7D7F83]">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-serif flex flex-row-reverse text-white">شفافیت قیمتی و تضمین پایین ترین قیمت در استادبانک به چه معناست؟</div>
+                <div class="collapse-content flex flex-row-reverse font-serif text-white text-right">
+                  <p>قیمت هر جلسه کلاس اساتید در پروفایل آنها درج شده است. کافیست نوع تدریس (حضوری یا آنلاین) و درس خود را انتخاب کنید تا قیمت تمام اساتید مرتبط را مشاهده نمایید. همچنین تضمین می کنیم که اساتید استادبانک کمترین قیمت را در پلتفرم استادبانک ارائه می کنند</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-[#7D7F83]">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-serif flex flex-row-reverse text-white">کلاس ها به صورت حضوری برگزاری می شود یا آنلاین؟</div>
+                <div class="collapse-content flex flex-row-reverse font-serif text-white text-right">
+                  <p>امکان برگزاری کلاس به هر دو صورت حضوری یا آنلاین در استادبانک وجود دارد. کافیست در زمان ثبت درخواست نوع تدریس را انتخاب کنید.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-[#7D7F83]">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-serif flex flex-row-reverse text-white">کلاس‌های آنلاین استاد‌بانک چگونه است؟</div>
+                <div class="collapse-content flex flex-row-reverse font-serif text-white text-right">
+                  <p>استادبانک دو پلتفرم اسکای روم و ادوبی کانکت را برای برگزاری کلاس های آنلاین در اختیار اساتید و دانش پژوهان به صورت رایگان قرار داده است. این کلاس ها با کیفیت بالا امکان برگزاری بر روی هر کدام از این پلتفرم ها را دارد. پیش از برگزاری کلاس، استاد لینک شرکت در کلاس را برای دانش پژوه ارسال می کند</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!--end akardion-->
+    <br>
+    
+    <!--Make Footer-->
+    <div class="footer w-[100%] h-[400px] flex bg-black justify-center">
+        <div class="content w-[80%] h-[100%] flex flex-col">
+            <div class="top w-[100%] h-[300px]  flex justify-evenly items-center">
+                <div class="footer__1 w-[30%] h-[80%] bg-[#6B7280] rounded-[20px] flex flex-col justify-evenly items-center">
+                    <h2 class="font-serif xl:text-[20px] lg:text-[17px] md:text-[14px] sm:text-[12px] text-[10px] text-[white]">برترین اساتید</h2>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">برترین اساتید زبان انگلیسی<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[4px] ml-1"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">برترین اساتید ریاضی<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">برترین اساتید فیزیک<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">برترین اساتید شیمی<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">برترین اساتید زیست<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                </div>
+                <div class="footer__2 w-[30%] h-[80%] bg-[#6B7280] rounded-[20px] flex flex-col justify-evenly items-center">
+                    <h2 class="font-serif xl:text-[20px] lg:text-[17px] md:text-[14px] sm:text-[12px] text-[10px] text-[white]">لینک‌ها</h2>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">
+                        عضویت اساتید<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">مجله آموزشی<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">آکادمی اساتید<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">بانک اطلاعات مدارس<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                </div>
+                <div class="footer__3 w-[30%] h-[80%] bg-[#6B7280] rounded-[20px] flex flex-col justify-evenly items-center">
+                    <h2 class="font-serif xl:text-[20px] lg:text-[17px] md:text-[14px] sm:text-[12px] text-[10px] text-[white]">دسترسی سریع</h2>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">درباره ما<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">تماس با ما<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">سوالات متداول<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">مجله استادبانک<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                    <a href="#" class="font-serif xl:text-[15px] lg:text-[13px] md:text-[11px] sm:text-[9px] text-[8px] text-[white]">شرایط و قوانین<i class="fa-solid fa-circle xl:text-[10px] lg:text-[9px] md:text-[8px] sm:text-[7px] text-[5px] ml-2"></i></a>
+                </div>
+            </div>
+            <div class="bottom w-[100%] h-[100px] flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col">
+                <div class="socials xl:w-[50%] lg:w-[50%] md:w-[100%] sm:w-[100%] w-[100%] xl:h-[100%] lg:h-[100%] md:h-[50%] sm:h-[50%] h-[50%] flex justify-center items-center gap-[40px]">
+                    <a href="#" class="text-[30px] text-[#7D7F82] hover:text-[white] transition duration-300"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-[30px] text-[#7D7F82] hover:text-[white] transition duration-300"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="text-[30px] text-[#7D7F82] hover:text-[white] transition duration-300"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="number xl:w-[50%] lg:w-[50%] md:w-[100%] sm:w-[100%] w-[100%] xl:h-[100%] lg:h-[100%] md:h-[50%] sm:h-[50%] h-[50%] flex justify-center items-center flex-row-reverse">
+                    <p class="font-serif ml-4 text-[20px] text-[white]"> : تلفن پشتیبانی </p>
+                    <p class="font-serif text-[20px] text-[white]">021 - 12345678</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Footer-->
+
+    <script src="./js/main.js"> </script>
+    <!--End Vsal-->
+</body>
+</html>
+
