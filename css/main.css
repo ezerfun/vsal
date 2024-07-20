@@ -2048,6 +2048,14 @@ html:has(.drawer-toggle:checked) {
   margin-top: 1px;
 }
 
+.ml-\[340px\] {
+  margin-left: 340px;
+}
+
+.ml-\[330px\] {
+  margin-left: 330px;
+}
+
 .flex {
   display: flex;
 }
@@ -2138,10 +2146,6 @@ html:has(.drawer-toggle:checked) {
 
 .h-\[80px\] {
   height: 80px;
-}
-
-.h-\[\] {
-  height: ;
 }
 
 .min-h-full {
@@ -2844,10 +2848,6 @@ html:has(.drawer-toggle:checked) {
     height: 800px;
   }
 
-  .sm\:h-\[500px\] {
-    height: 500px;
-  }
-
   .sm\:w-\[100\%\] {
     width: 100%;
   }
@@ -2878,6 +2878,14 @@ html:has(.drawer-toggle:checked) {
 
   .sm\:items-end {
     align-items: flex-end;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .sm\:gap-1 {
@@ -2962,10 +2970,6 @@ html:has(.drawer-toggle:checked) {
     height: 800px;
   }
 
-  .md\:h-\[500px\] {
-    height: 500px;
-  }
-
   .md\:w-\[100\%\] {
     width: 100%;
   }
@@ -2996,6 +3000,14 @@ html:has(.drawer-toggle:checked) {
 
   .md\:items-end {
     align-items: flex-end;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .md\:gap-1 {
@@ -3114,6 +3126,10 @@ html:has(.drawer-toggle:checked) {
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:gap-0 {
@@ -3236,6 +3252,10 @@ html:has(.drawer-toggle:checked) {
 
   .xl\:items-center {
     align-items: center;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
   }
 
   .xl\:gap-0 {
