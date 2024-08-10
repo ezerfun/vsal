@@ -2028,12 +2028,12 @@ html:has(.drawer-toggle:checked) {
   margin-left: 210px;
 }
 
-.ml-\[350px\] {
-  margin-left: 350px;
-}
-
 .ml-\[5px\] {
   margin-left: 5px;
+}
+
+.ml-\[80\%\] {
+  margin-left: 80%;
 }
 
 .mr-\[20px\] {
@@ -2046,14 +2046,6 @@ html:has(.drawer-toggle:checked) {
 
 .mt-\[1px\] {
   margin-top: 1px;
-}
-
-.ml-\[340px\] {
-  margin-left: 340px;
-}
-
-.ml-\[330px\] {
-  margin-left: 330px;
 }
 
 .flex {
@@ -2316,6 +2308,15 @@ html:has(.drawer-toggle:checked) {
   border-radius: 7px;
 }
 
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-b {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
 .rounded-bl-\[25px\] {
   border-bottom-left-radius: 25px;
 }
@@ -2346,6 +2347,34 @@ html:has(.drawer-toggle:checked) {
 
 .rounded-tr-\[50px\] {
   border-top-right-radius: 50px;
+}
+
+.rounded-tr {
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-tr-\[20px\] {
+  border-top-right-radius: 20px;
+}
+
+.rounded-tl-\[20px\] {
+  border-top-left-radius: 20px;
+}
+
+.rounded-br {
+  border-bottom-right-radius: 0.25rem;
+}
+
+.rounded-br-\[\] {
+  border-bottom-right-radius: ;
+}
+
+.rounded-br-\[20px\] {
+  border-bottom-right-radius: 20px;
+}
+
+.rounded-bl-\[20px\] {
+  border-bottom-left-radius: 20px;
 }
 
 .border {
@@ -2872,16 +2901,28 @@ html:has(.drawer-toggle:checked) {
     width: 80px;
   }
 
+  .sm\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .sm\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .sm\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:flex-col {
     flex-direction: column;
   }
 
   .sm\:items-end {
     align-items: flex-end;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
   }
 
   .sm\:justify-evenly {
@@ -2994,16 +3035,28 @@ html:has(.drawer-toggle:checked) {
     width: 90;
   }
 
+  .md\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:flex-col {
     flex-direction: column;
   }
 
   .md\:items-end {
     align-items: flex-end;
-  }
-
-  .md\:justify-between {
-    justify-content: space-between;
   }
 
   .md\:justify-evenly {
@@ -3118,6 +3171,14 @@ html:has(.drawer-toggle:checked) {
 
   .lg\:w-\[95px\] {
     width: 95px;
+  }
+
+  .lg\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
   }
 
   .lg\:flex-row {
@@ -3244,6 +3305,14 @@ html:has(.drawer-toggle:checked) {
 
   .xl\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .xl\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .xl\:w-\[80\%\] {
+    width: 80%;
   }
 
   .xl\:flex-row {
